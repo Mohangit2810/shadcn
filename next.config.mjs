@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    domains: ["cdn.myanimelist.net"], // Add the domain here
+  },
+};
 
 export default nextConfig;
